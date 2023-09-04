@@ -262,13 +262,11 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 # Plugins
 plugins_dir: "_plugins"
 plugins:
-  - jekyll-paginate
   - jekyll-gist
   - jekyll-redirect-from
   - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
   - jekyll-gist
   - jemoji
 
