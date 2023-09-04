@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Adam Pollack"
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   bio              : 
   location         : "Hanover, NH"
   employer         :
