@@ -302,14 +302,14 @@ tag_archive:
 #     tag: /tags/:name/
 scholar:
   style: american-geophysical-union
-  source: _bibliography
+  source: bibliography
   bibliography: my-papers.bib
   bibliography_template: bib
   sort_by: date,year,month
   order: descending
   bibliography_list_tag: div
   bibliography_item_tag: div
-  repository: _bibliography
+  repository: bibliography
 
 # HTML Compression
 # - http://jch.penibelst.de/
