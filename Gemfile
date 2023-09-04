@@ -24,4 +24,12 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
+  gem 'jekyll'
+  gem 'html-proofer'
+  gem 'jekyll-scholar'
+  gem 'jekyll'
+  gem 'rake'
+
 end
+
+gem "webrick", "~> 1.7"

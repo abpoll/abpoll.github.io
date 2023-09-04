@@ -146,6 +146,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - ".DS_Store"
 keep_files:
   - .git
   - .svn
@@ -259,6 +260,7 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 
 
 # Plugins
+plugins_dir: "_plugins"
 plugins:
   - jekyll-paginate
   - jekyll-gist
