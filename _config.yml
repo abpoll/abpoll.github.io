@@ -82,10 +82,10 @@ analytics:
 author:
   name             : "Adam Pollack"
   avatar           : "profile.png"
-  bio              : 
+  bio              :
   location         : "Hanover, NH"
   employer         :
-  pubmed           : 
+  pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao"
   email            :
   researchgate     : "https://www.researchgate.net/profile/Adam-Pollack-4"
@@ -106,10 +106,10 @@ author:
   orcid            : "https://orcid.org/my-orcid?orcid=0000-0001-6642-0591"
   pinterest        :
   soundcloud       :
-  stackoverflow    : 
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          :
   vine             :
   weibo            :
   xing             :
@@ -261,16 +261,13 @@ timezone: America/New_York # http://en.wikipedia.org/wiki/List_of_tz_database_ti
 # Plugins
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-scholar
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
 
 
