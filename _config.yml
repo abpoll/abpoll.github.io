@@ -298,7 +298,16 @@ tag_archive:
 #   permalinks:
 #     category: /categories/:name/
 #     tag: /tags/:name/
-
+scholar:
+  style: american-geophysical-union
+  source: _bibliography
+  bibliography: my-papers.bib
+  bibliography_template: bib
+  sort_by: date,year,month
+  order: descending
+  bibliography_list_tag: div
+  bibliography_item_tag: div
+  repository: _bibliography
 
 # HTML Compression
 # - http://jch.penibelst.de/
