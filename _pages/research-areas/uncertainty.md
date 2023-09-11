@@ -1,8 +1,8 @@
 ---
-title: "Uncertainty in Flood Risk Estimation"
+title: "Uncertainty in Flood Risk Estimation and Valuation"
 image: /assets/img/research/uncertainty.jpg
 caption: "Pollack, A. B., Sue Wing, I., & Nolte, C. (2022). Aggregation bias and its drivers in large-scale flood loss estimation: A Massachusetts case study. Journal of Flood Risk Management, 15(4), e12851."
 order: 2
 ---
 
-Neglecting uncertainty can bias decisions with far-reaching impacts on socioeconomic, engineered, and Earths systems. A substantial portion of my research focuses on uncertainty characterization and quantification in flood risk estimation. This research is grounded in decision-making contexts. As such, I aim to represent how flood risk estimation techniques that underly current decision-making tasks compare to methods with better uncertainty characterization. 
+Neglecting uncertainty can bias decisions with far-reaching impacts on socioeconomic, engineered, and Earths systems. A substantial portion of my research focuses on uncertainty characterization and quantification in flood risk estimation and valuation. This research is grounded in decision-making contexts. As such, I aim to represent how flood risk estimation or valuation techniques that underlie current decision-making and research tasks compare to methods with better uncertainty characterization. 
