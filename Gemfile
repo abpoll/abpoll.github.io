@@ -4,6 +4,8 @@ group :jekyll_plugins do
     gem "jekyll-scholar"
     gem "jekyll"
     gem "rake"
+    gem 'jekyll-sitemap'
+    gem 'jekyll-seo-tag'
 end
 
 gem "webrick", "~> 1.7"
