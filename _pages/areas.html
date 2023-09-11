@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div class="container">
-  {% assign pages = site._pages | sort:"order" %}
+  {% assign pages = site.pages | sort:"order" %}
   {% for page in pages %}
   {% if page.path contains 'research-areas/' and page.path contains '.md' %}
     <div class="col-4">
