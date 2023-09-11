@@ -1,7 +1,7 @@
 ---
-title: "Flood Risk Dynamics in Housing Markets"
+title: "Uncertainty in Flood Risk Estimation"
 image: /assets/img/research/uncertainty.jpg
-caption: "Credit: Adam Pollack"
+caption: "Pollack, A. B., Sue Wing, I., & Nolte, C. (2022). Aggregation bias and its drivers in large-scale flood loss estimation: A Massachusetts case study. Journal of Flood Risk Management, 15(4), e12851."
 order: 2
 ---
 
