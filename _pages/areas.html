@@ -14,8 +14,10 @@ redirect_from:
   {% if page.path contains 'research-areas/' and page.path contains '.md' %}
     <div class="col-4">
       {% if page.image %}
+      <figure>
         <img src="{{ page.image }}" style="padding-right: 20px" align="left" alt={{ page.title }} width=250px />
         <figcaption>{{ page.caption }}</figcaption>
+      </figure>
       {% endif %}
     </div>
     <div class="col-8">
