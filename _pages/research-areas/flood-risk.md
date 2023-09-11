@@ -1,15 +1,8 @@
 ---
-permalink: /
-title: "About Adam"
-excerpt: "About me"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+title: "Flood Risk Dynamics in Housing Markets"
+image: /assets/img/research/stjohns.jpg
+caption: "Credit: Adam Pollack"
+order: 1
 ---
 
-I am a Postdoctoral Research Associate in the [Keller Lab Group](https://keller-lab.github.io/) in the Thayer School of Engineering at Dartmouth College. My research focuses on natural disaster risk management and is motivated by, and responsive to, the concerns and values of affected parties and decision-makers. I pursue research questions that can offer actionable insights for public policy and decision-centered academic research practices, particularly in U.S. flood risk management. This often calls for collaborative and interdisciplinary research which I greatly enjoy.
-
-I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of [Christoph Nolte](https://placeslab.org/) and [Ian Sue Wing](https://people.bu.edu/isw/). I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.
-
-I have interests outside of academia, mostly involved with being outside and cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. These days, being outside and not doing too much is also a favorite hobby. Food-wise, throughout most of my tenure at Stony Brook University, I operated [Long Island Kettle Corn](https://patch.com/new-york/portwashington/three-minutes-across-counter-long-island-kettle-corn) at farmers markets and fairs throughout Long Island, New York. When I moved to Boston, I continued my food-based moonlighting by volunteering at the (now defunct) Appleton Farms cheese booth at the Boston Public Market.
+A large portion of a person's well-being comes from where they live and work. Therefore, because flooding is the most widesly experienced, costly, and deadly natural disaster in many areas around the world, it is important to understand the nature of flood risk in housing markets and the policies and decisions that are effective in managing these risks. This is a challenging area of study because physical flood risks arise from a complex system of private preferences and decisions, public policies and investments, and feedbacks between human, built, and natural systems. In addition, physical flood risks are directly connected to fiscal risks across society through interactions between housing markets, insurance providers, financial institutions, and public policy. My research focuses on several aspects of these complex issues in a U.S. policy context with the aim of providing actionable insights for decision-makers about policy levers at their disposal and scientific insights for researchers to improve how we study important research questions. 
