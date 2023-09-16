@@ -1,7 +1,7 @@
 ---
 title: "Values Informed Decision Making under Deep Uncertainty"
 image: /assets/img/research/taxonomy.png
-caption: "Credit: Adam Pollack"
+caption: "Pollack, A., Helgeson, C., Kousky, C., & Keller, K. (2023, September). Transparency on underlying values is needed for useful equity measurements. OSF Preprints. DOI: https://doi.org/10.31219/osf.io/kvyxr."
 order: 3
 ---
 
