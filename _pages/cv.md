@@ -1,9 +1,9 @@
 ---
-permalink: /files/pdf/AdamPollackCV.pdf
+permalink: /cv/
 title: "CV"
 author_profile: true
 redirect_from:
-  - /cv/
+  - /CV/
 ---
 
 <iframe src="/files/pdf/AdamPollackCV.pdf#toolbar=0" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
