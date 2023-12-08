@@ -14,4 +14,4 @@ I completed my Ph.D. in the Earth and Environment Department at Boston Universit
 
 I have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, throughout most of my tenure at Stony Brook University, I operated [Long Island Kettle Corn](https://patch.com/new-york/portwashington/three-minutes-across-counter-long-island-kettle-corn) at farmers markets and fairs throughout Long Island, New York. When I moved to Boston, I continued my food-based moonlighting by volunteering at the (now defunct) Appleton Farms cheese booth at the Boston Public Market.
 
-If you'd like to connect, shoot me an email! :email: adam.b.pollack@dartmouth.edu
+If you'd like to connect, shoot me an email! 📬 adam.b.pollack@dartmouth.edu
