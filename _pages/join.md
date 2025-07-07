@@ -21,8 +21,8 @@ I am currently recruiting PhD students for Fall 2026 to join me at the School of
     * If we determine strong mutual fit over email, we will meet for a video chat. The goal is to evaluate your verbal communication skills and how you articulate your interests. This will not be a formal interview - it helps to ensure that we get along well enough to suggest a productive mentorship relationship. 
     * There is no need for a fancy background, formal dress-up, etc.,
 5. Guided paper evaluation
-    * If we continue to find strong mutual fit, I will send you an email asking you to provide a written evaluation of two papers that most closely correspond to the interests you articulate in the video chat. 
-    * The goal is to get a sense of your baseline writing skills, ability to synthesize research findings, and research framing experience. Your task is to report the following in one page (12 point font, times new roman):
+    * If we continue to find strong mutual fit, I will send you an email asking you to provide a written evaluation of two papers that most closely correspond to the interests you articulate in the video chat.
+    * The goal is to get a sense of your baseline writing skills, ability to synthesize research findings, and research framing experience. This is also synergistic with your statement of purpose. Your task is to report the following in one page (12 point font, times new roman):
       * What question do the studies address?
       * How do they address the question?
       * What do the studies find?
