@@ -16,7 +16,7 @@ This list is not identical to what I'm currently working on, but it's a good ref
 
 - Measuring the value of data and model refinements for decision making;
 - Probabilistic depth-damage relationships and implications for flood risk assessment;
-- Identifying sound and helpful ways to represent compound flooding;
+- Compound, multi-hazard, dynamic risk assessments and emergent adaptation risks;
 - Open-source and interoperable multi-hazard risk assessment frameworks;
 - Integrating political economy into decision analysis framing and modeling; 
 - Long-term co-production partnerships for decision-oriented research ideas.
