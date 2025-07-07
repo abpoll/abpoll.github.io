@@ -14,15 +14,15 @@ I am currently recruiting PhD students for Fall 2026 to join me at the School of
 2. Review the [core values](https://keller-lab.github.io/web-manual/docs/lab-values/) I hold for research. 
 3. If you do steps 1 & 2 and think you see a good fit, email me at <adam-pollack@uiowa.edu> with the following:
     * Include relevant documents (e.g., a current CV, a draft of your personal statement, any relevant prior work you'd like me to see)
-    * Explain why you are reaching out to me specifically (e.g., did you read one of my papers?). An inquiry that references a specific paper or idea and ties it to your interests and what you hope to gain as a member of the group is the msot likely to receive a positive response. 
-    * Ask specific questions. If your expression of interest is vague, I may not respond to you. By asking questions like "Are you still working on `<this topic>`", I am more likely to take your interest as genuine.
+    * Explain why you are reaching out to me specifically (e.g., did you read one of my papers?). An inquiry that references a specific paper or idea and ties it to your interests and what you hope to gain as a member of the group is the most likely to receive a positive response. 
+    * Ask specific questions. By asking questions like "Are you still working on `<this topic>`", I am more likely to take your interest as genuine.
     * Be prepared to iterate via email.
 4. Video chat
     * If we determine strong mutual fit over email, we will meet for a video chat. The goal is to evaluate your verbal communication skills and how you articulate your interests. This will not be a formal interview - it helps to ensure that we get along well enough to suggest a productive mentorship relationship. 
     * There is no need for a fancy background, formal dress-up, etc.,
 5. Guided paper evaluation
     * If we continue to find strong mutual fit, I will send you an email asking you to provide a written evaluation of two papers that most closely correspond to the interests you articulate in the video chat.
-    * The goal is to get a sense of your baseline writing skills, ability to synthesize research findings, and research framing experience. This is also synergistic with your statement of purpose. Your task is to report the following in one page (12 point font, times new roman):
+    * Answering the following in one page (12 point font, times new roman) will help you prepare your statement of purpose and will kick off our collaboration:
       * What question do the studies address?
       * How do they address the question?
       * What do the studies find?
