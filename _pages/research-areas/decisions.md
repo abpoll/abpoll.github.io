@@ -1,7 +1,7 @@
 ---
 title: "Decision Analysis"
 image: /assets/img/research/j40.jpg
-caption: "Pollack et al. (2025). Funding rules that promote equity in climate adaptation outcomes. Jan 2025. https://doi.org/10.1073/pnas.2418711121."
+caption: "Pollack et al. (2025). Funding rules that promote equity in climate adaptation outcomes. Proceedings of the National Academy of Sciences. https://doi.org/10.1073/pnas.2418711121."
 order: 4
 ---
 

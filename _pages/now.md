@@ -22,7 +22,7 @@ This list is not identical to what I'm currently working on, but it's a good ref
 - Long-term co-production partnerships for decision-oriented research ideas.
 
 ## Career Things I'm Thinking About
-- **I'm recruiting PhD students**. If you are interested in joining me at the Schol of Earth, Environment, and Sustainability at the University of Iowa, please see the following [application workflow](/files/pdf/application_workflow.pdf)
+- **I'm recruiting PhD students**. If you are interested in joining me at the Schol of Earth, Environment, and Sustainability at the University of Iowa, please see the following [application workflow](https://abpoll.github.io/join)
 - I'm very excited to teach a course I developed on decision analysis for wicked climate problems
 - I'm developing a course on Environmental Justice for the School of Earth, Environment, and Sustainability 
 - I will eventually find the time to move this website over to Quarto and separately set up a lab group webpage and manual!
