@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /now/
 title: "Now"
 excerpt: "Now"
 author_profile: true
