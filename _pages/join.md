@@ -19,6 +19,7 @@ I am currently recruiting PhD students for Fall 2026 to join me at the School of
 4. Video chat
     * If we have a good exchange of ideas over email, we will meet for a video chat. We will address any questions you have, then talk about research interests and ideas. The goal is to sketch out what the perfect PhD looks like for you and provide you with an honest assessment of what the PhD could look like at Iowa under my supervision so you can make an informed decision.
     * This will not be a formal interview. There is no need for a fancy background, formal dress-up, etc.,
+    * I will give you contact information for students I have advised and worked with so you can learn more about my mentorship style, research culture, etc., 
 5. Your application
     * To convince the application reviewers that you would be happy and successful if you joined the group, your application should answer the following questions:
       * Would pursuing this degree and doing research in the group advance **your** career *and* life goals?
