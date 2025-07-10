@@ -14,8 +14,8 @@ I am currently recruiting PhD students for Fall 2026 to join me at the School of
 2. Review the [core values](https://keller-lab.github.io/web-manual/docs/lab-values/) I hold for research and check that these resonate with you. 
 3. If you do steps 1 & 2 and think you see a good fit, email me at <adam-pollack@uiowa.edu>:
     * Include relevant documents (e.g., a current CV, a draft of your personal statement, any relevant prior work you'd like me to see)
-    * Explain why you are reaching out to me specifically (e.g., did you read one of my papers?). An inquiry that references a specific paper or idea and ties it to your interests and what you hope to gain as a member of the group is the most likely to receive a positive response. 
-    * Ask specific questions. By asking questions like "Are you still working on `<this topic>`", I am more likely to take your interest as genuine.
+    * Explain why you are reaching out to me specifically (e.g., did you read one of my papers?). An inquiry that references a specific paper or idea (doesn't have to be one of mine!) and ties it to your interests and what you hope to gain as a member of the group is the most likely to receive a positive response. 
+    * Be yourself! I get a lot of similar sounding inquiries. I don't mind if you use a LLM to polish your writing, but if you rely on one to generate content there's a good chance I won't see your interest as genuine. It's important to check your writing for spelling, grammar, flow, etc., but at this stage, the best way to stand out is to be your awesome, unique self!
 4. Video chat
     * If we have a good exchange of ideas over email, we will meet for a video chat. We will address any questions you have, then talk about research interests and ideas. The goal is to sketch out what the perfect PhD looks like for you and provide you with an honest assessment of what the PhD could look like at Iowa under my supervision so you can make an informed decision.
     * This will not be a formal interview. There is no need for a fancy background, formal dress-up, etc.,
