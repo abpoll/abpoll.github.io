@@ -8,7 +8,15 @@ redirect_from:
   - /join.html
 ---
 
-I am currently recruiting PhD students for Fall 2026 to join me at the School of Earth, Environment, and Sustainability (SEES). The position will be fully funded. The University of Iowa PhD application deadline is December 1, 2025. Applicants must submit a CV, statement of purpose, three letters of recommendation, and transcripts. You can learn more [here](https://sees.uiowa.edu/graduate/admissions). You can apply to the SEES program without contacting me ahead of time, but I highly recommend you email me in advance to express your interest. Following these steps will help us identify whether the PhD opportunity is a good mutual fit, in which case I will ensure that your application receives priority: 
+I am currently recruiting PhD students for Fall 2026 to join me at the School of Earth, Environment, and Sustainability (SEES). Candidates should expect to focus on one or more of the following areas:
+
+1. Making flood-risk information more usable for decision support; and/or
+2. Increasing capacity for flood adaptation; and/or
+3. Clarifying links between the causes of disasters, the distribution of their impacts, and resulting disparate recovery trajectories.
+
+The position will be fully funded. 
+
+The University of Iowa PhD application deadline is December 1, 2025. Applicants must submit a CV, statement of purpose, three letters of recommendation, and transcripts. You can learn more [here](https://sees.uiowa.edu/graduate/admissions). You can apply to the SEES program without contacting me ahead of time, but I highly recommend you email me in advance to express your interest. Following these steps will help us identify whether the PhD opportunity is a good mutual fit, in which case I will ensure that your application receives priority: 
 
 1. Read [example publications](https://abpoll.github.io/publications/). Note the mix of techniques from statistics, economics, and data science, as well as my recent attention to integrating normative and philosophical considerations into quantitative decision analysis. 
 2. Review the [core values](https://keller-lab.github.io/web-manual/docs/lab-values/) I hold for research and check that these resonate with you. 
@@ -26,7 +34,6 @@ I am currently recruiting PhD students for Fall 2026 to join me at the School of
       * What experience demonstrates that you have the required skills to successfully carry out research in our group? 
       * What skills and experiences do you lack, and how will you obtain them during your graduate education? 
       * Why is Adam the right supervisor for you? 
-
 
 
 **Credit**
