@@ -1,5 +1,8 @@
 # main links links
 main:
+  - title: "Now"
+    url: /now/
+  
   - title: "Research Areas"
     url: /research/
   
