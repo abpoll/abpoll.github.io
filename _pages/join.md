@@ -1,4 +1,4 @@
----
+<!-- ---
 permalink: /join/
 title: "Join the Group!"
 excerpt: "Join"
@@ -37,4 +37,4 @@ The University of Iowa PhD application deadline is December 1, 2025. Applicants 
 
 
 **Credit**
-I based this workflow extensively on documents written by Klaus Keller, Vivek Srikrishnan, and James Doss-Gollin. 
+I based this workflow extensively on documents written by Klaus Keller, Vivek Srikrishnan, and James Doss-Gollin.  -->

@@ -8,12 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Scientist in the [Keller Lab Group](https://keller-lab.github.io/) in the Thayer School of Engineering at Dartmouth College. My research on natural disaster risk management is motivated by, and responsive to, the concerns and values of affected parties and decision-makers. I pursue research questions that can offer actionable insights for public policy and decision-focused academic research practices, particularly in U.S. flood risk management. This often calls for collaborative and interdisciplinary research which I greatly enjoy.
-
-In January, 2026, I will join the [School of Earth, Environment and Sustainability at the University of Iowa](https://sees.uiowa.edu/) as an Assistant Professor. **I am actively recruting PhD students**. If you are curious about pursuing a PhD in the area of natural disaster risk management, please see my [Publications](https://abpoll.github.io/publications/) page to see if you find my research interesting. If it looks like we have mutual interests, please check out my [Now](https://abpoll.github.io/now) page for more information on applying to work with me. 
+I am an Assistant Professor in the [School of Earth, Environment and Sustainability at the University of Iowa](https://sees.uiowa.edu/). My research on natural disaster risk management is motivated by, and responsive to, the concerns and values of affected parties and decision-makers. I pursue research questions that can offer actionable insights for public policy and decision-focused academic research practices, particularly in U.S. flood risk management. This often calls for collaborative and interdisciplinary research which I greatly enjoy.
 
 I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of [Christoph Nolte](https://placeslab.org/) and [Ian Sue Wing](https://people.bu.edu/isw/). I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.
 
 I have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, throughout most of my tenure at Stony Brook University, I operated [Long Island Kettle Corn](https://patch.com/new-york/portwashington/three-minutes-across-counter-long-island-kettle-corn) at farmers markets and fairs throughout Long Island, New York. When I moved to Boston, I continued my food-based moonlighting by volunteering at the (now defunct) Appleton Farms cheese booth at the Boston Public Market.
 
-If you'd like to connect, shoot me an email! 📬 [adam.b.pollack@dartmouth.edu](mailto: adam.b.pollack@dartmouth.edu)
+If you'd like to connect, shoot me an email! 📬 [adam-pollack@uiowa.edu](mailto: adam-pollack@uiowa.edu)

@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Adam Pollack"
 title_separator          : "-"
 name                     : &name "Adam Pollack"
-description              : &description "Dr. Adam Pollack is a Research Scientist in the Keller Lab at the Thayer School of Engineering in Dartmouth College. Adam studies flooding from econometric and decision-making under deep uncertainty perspectives to better understand flood risk outcomes and strategies to manage those outcomes across diverse social objectives and values."
+description              : &description "Dr. Adam Pollack is an Assistant Professor in the School of Earth, Environment, and Sustainability at the University of Iowa. Adam studies flooding from econometric and decision-making under deep uncertainty perspectives to better understand flood risk outcomes and strategies to manage those outcomes across diverse social objectives and values."
 url                      : https://abpoll.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "abpoll/abpoll.github.io"
@@ -83,11 +83,11 @@ author:
   name             : "Adam Pollack"
   avatar           : "profile.png"
   bio              :
-  location         : "Hanover, NH"
+  location         : "Iowa City, IA"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao"
-  email            : "adam.b.pollack@dartmouth.edu"
+  email            : "adam-pollack@uiowa.edu"
   researchgate     : "https://www.researchgate.net/profile/Adam-Pollack-4"
   uri              :
   bitbucket        :
