@@ -1,42 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://abpoll.github.io/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/research/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/cv/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/_pages/research-areas/decisions.html</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/_pages/research-areas/equity-risk.html</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/now/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/publications/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/teaching/</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/_pages/research-areas/uncertainty.html</loc>
-</url>
-<url>
-<loc>https://abpoll.github.io/_pages/about.html</loc>
-<lastmod>2026-01-18T11:30:48-05:00</lastmod>
-</url>
-<url>
-<loc>https://abpoll.github.io/files/pdf/AdamPollackCV.pdf</loc>
-<lastmod>2026-01-18T11:30:48-05:00</lastmod>
-</url>
-<url>
-<loc>https://abpoll.github.io/googled02283c26c4f62b5.html</loc>
-<lastmod>2026-01-18T11:30:48-05:00</lastmod>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://abpoll.github.io/cv/index.html</loc>
+    <lastmod>2026-01-18T22:47:41.351Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abpoll.github.io/teaching/index.html</loc>
+    <lastmod>2026-01-18T22:47:41.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abpoll.github.io/index.html</loc>
+    <lastmod>2026-01-18T22:47:41.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abpoll.github.io/now/index.html</loc>
+    <lastmod>2026-01-18T22:47:41.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://abpoll.github.io/publications/index.html</loc>
+    <lastmod>2026-01-18T22:47:41.352Z</lastmod>
+  </url>
 </urlset>

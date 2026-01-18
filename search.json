@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "Download current CV\n  \n\n\n\n  \n    &lt;p&gt;Your browser does not support embedded PDFs. You can download the CV &lt;a href=\"/assets/pdf/Pollack-CV.pdf\"&gt;here&lt;/a&gt;.&lt;/p&gt;"
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
+  },
+  {
+    "objectID": "teaching/index.html#courses",
+    "href": "teaching/index.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
+  },
+  {
+    "objectID": "teaching/index.html#designed-and-instructed-modules",
+    "href": "teaching/index.html#designed-and-instructed-modules",
+    "title": "Teaching",
+    "section": "Designed and Instructed Modules",
+    "text": "Designed and Instructed Modules\n\nDartmouth College\n\nI developed a teaching module on how to produce Findable, Accessible, Interoperable, and Reusable analyses, which I presented in the course Bayesian Statistical Modeling and Computation in the winters of 2024 and 2025."
+  },
+  {
+    "objectID": "teaching/index.html#teaching-assistant",
+    "href": "teaching/index.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant\n\nBoston University\n\nI was the lab instructor for EE 270, “Data, Models, and Analysis in Earth & Environment”, an introductory probability and statistics course for natural and social science applications in environmental sciences, in Spring 2020 and 2021. In 2021, I led the redesign of all computational labs in the course.\n\n\n\nStony Brook University\n\nI was a teaching assistant for CSE 316, “Software Development Fundamentals.” In this role, I held 4 open office hours per week where I assisted students on course projects through concept review, implementation advice, and debugging help."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an Assistant Professor in the School of Earth, Environment and Sustainability at the University of Iowa. My research on flood risk management aims to produce actionable insights for infrastructure design and public policy.\nI previously worked as a postdoc and research scientist in the Keller Lab Group in the Thayer School of Engineering at Dartmouth College. I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of Christoph Nolte and Ian Sue Wing. I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.\nI have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, I once operated Long Island Kettle Corn at farmers markets and festivals throughout Long Island, New York."
+  },
+  {
+    "objectID": "now/index.html",
+    "href": "now/index.html",
+    "title": "What I’m Doing Now",
+    "section": "",
+    "text": "This is my now page; I can’t promise how up-to-date it is, but I try to update it when anything major happens!"
+  },
+  {
+    "objectID": "now/index.html#research-ideas-im-thinking-about",
+    "href": "now/index.html#research-ideas-im-thinking-about",
+    "title": "What I’m Doing Now",
+    "section": "Research Ideas I’m Thinking About",
+    "text": "Research Ideas I’m Thinking About\nThis list is not identical to what I’m currently working on, but it’s a good reflection of that plus what I’m thinking about myself or with collaborators.\n\nMeasuring the value of data and model refinements for decision making;\nProbabilistic depth-damage relationships and implications for flood risk assessment;\nCompound, multi-hazard, dynamic risk assessments and emergent adaptation risks;\nOpen-source and interoperable multi-hazard risk assessment frameworks;\nIntegrating political economy into decision analysis framing and modeling;\nLong-term co-production partnerships for decision-oriented research ideas."
+  },
+  {
+    "objectID": "now/index.html#research-logistics",
+    "href": "now/index.html#research-logistics",
+    "title": "What I’m Doing Now",
+    "section": "Research Logistics",
+    "text": "Research Logistics\n\nI’m preparing a job posting for a postdoctoral research associate. If you are interested in joining me at the Schol of Earth, Environment, and Sustainability at the University of Iowa, please check back here in February to see see the application workflow.\nI will eventually find the time to move this website over to Quarto and separately set up a lab group webpage and manual!"
+  },
+  {
+    "objectID": "publications/index.html",
+    "href": "publications/index.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Pollack, Adam B, Auermuller, Lisa, Burleyson, Casey D, Campbell, Jentry, et al.. (2026). Unlocking the benefits of transparent and reusable science for climate risk management. Proceedings of the National Academy of Sciences 123(3) e2422157123\n\n\n\n\n\n\n\nPollack, Adam, Doss-Gollin, James, Srikrishnan, Vivek, Keller, Klaus. (2025). UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation. J. Open Source Softw. 10(115) 7527\n\n\n\n\n\n\n\nBhaduri, Parin, Pollack, Adam B, Yoon, James, Roy Chowdhury, Pranab K, et al.. (2025). Uncertainty in household behavior drives large variation in the size of the levee effect. J. Flood Risk Manag. 18(4) e70131\n\n\n\n\n\n\n\nPollack, Adam B, Santamaria-Aguilar, Sara, Maduwantha, Pravin, Helgeson, Casey, et al.. (2025). Funding rules that promote equity in climate adaptation outcomes. Proceedings of the National Academy of Sciences 122(2) e2418711121\n\n\n\n\n\n\n\nPollack, Adam B, Helgeson, Casey, Kousky, Carolyn, Keller, Klaus. (2024). Developing more useful equity measurements for flood-risk management. Nature Sustainability 1-10\n\n\n\n\n\n\n\nGourevitch, Jesse D, Kousky, Carolyn, […], Pollack, Adam B, et al.. (2023). Unpriced climate risk and the potential consequences of overvaluation in US housing markets. Nat. Clim. Chang. 1-8\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nPollack, Adam B, Wrenn, Douglas H, Nolte, Christoph, Wing, Ian Sue. (2023). Potential Benefits in Remapping the Special Flood Hazard Area: Evidence from the U.S. Housing Market. J. Hous. Econ. 61 101956\n\n\n\n\n\n\n\nHennighausen, Hannah, Liao, Yanjun, Nolte, Christoph, Pollack, Adam. (2023). Flood insurance reforms, housing market dynamics, and adaptation to climate risks. J. Hous. Econ. 62 101953\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nNolte, Christoph, Boyle, Kevin J, […], Pollack, Adam, et al.. (2023). Data Practices for Studying the Impacts of Environmental Amenities and Hazards with Nationwide Property Data. Land Econ.\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nPollack, Adam B, Kaufmann, Robert K. (2022). Increasing storm risk, structural defense, and house prices in the Florida Keys. Ecol. Econ. 194(C)\n\n\n\n\n\n\n\nPollack, Adam B, Sue Wing, Ian, Nolte, Christoph. (2022). Aggregation bias and its drivers in large scale flood loss estimation: A Massachusetts case study. J. Flood Risk Manag. 15(4)\n\n\n\n\n\n\n\nCastigliego, Joshua R, Pollack, Adam, Cleveland, Cutler J, Walsh, Michael J. (2021). Evaluating emissions reductions from zero waste strategies under dynamic conditions: A case study from Boston. Waste Manag. 126 170-179"
+  },
+  {
+    "objectID": "publications/index.html#journal-articles",
+    "href": "publications/index.html#journal-articles",
+    "title": "Publications",
+    "section": "",
+    "text": "Pollack, Adam B, Auermuller, Lisa, Burleyson, Casey D, Campbell, Jentry, et al.. (2026). Unlocking the benefits of transparent and reusable science for climate risk management. Proceedings of the National Academy of Sciences 123(3) e2422157123\n\n\n\n\n\n\n\nPollack, Adam, Doss-Gollin, James, Srikrishnan, Vivek, Keller, Klaus. (2025). UNSAFE: An UNcertain Structure And Fragility Ensemble framework for property-level flood risk estimation. J. Open Source Softw. 10(115) 7527\n\n\n\n\n\n\n\nBhaduri, Parin, Pollack, Adam B, Yoon, James, Roy Chowdhury, Pranab K, et al.. (2025). Uncertainty in household behavior drives large variation in the size of the levee effect. J. Flood Risk Manag. 18(4) e70131\n\n\n\n\n\n\n\nPollack, Adam B, Santamaria-Aguilar, Sara, Maduwantha, Pravin, Helgeson, Casey, et al.. (2025). Funding rules that promote equity in climate adaptation outcomes. Proceedings of the National Academy of Sciences 122(2) e2418711121\n\n\n\n\n\n\n\nPollack, Adam B, Helgeson, Casey, Kousky, Carolyn, Keller, Klaus. (2024). Developing more useful equity measurements for flood-risk management. Nature Sustainability 1-10\n\n\n\n\n\n\n\nGourevitch, Jesse D, Kousky, Carolyn, […], Pollack, Adam B, et al.. (2023). Unpriced climate risk and the potential consequences of overvaluation in US housing markets. Nat. Clim. Chang. 1-8\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nPollack, Adam B, Wrenn, Douglas H, Nolte, Christoph, Wing, Ian Sue. (2023). Potential Benefits in Remapping the Special Flood Hazard Area: Evidence from the U.S. Housing Market. J. Hous. Econ. 61 101956\n\n\n\n\n\n\n\nHennighausen, Hannah, Liao, Yanjun, Nolte, Christoph, Pollack, Adam. (2023). Flood insurance reforms, housing market dynamics, and adaptation to climate risks. J. Hous. Econ. 62 101953\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nNolte, Christoph, Boyle, Kevin J, […], Pollack, Adam, et al.. (2023). Data Practices for Studying the Impacts of Environmental Amenities and Hazards with Nationwide Property Data. Land Econ.\n\n(non-lead authors listed alphabetically)\n\n\n\n\n\n\n\n\nPollack, Adam B, Kaufmann, Robert K. (2022). Increasing storm risk, structural defense, and house prices in the Florida Keys. Ecol. Econ. 194(C)\n\n\n\n\n\n\n\nPollack, Adam B, Sue Wing, Ian, Nolte, Christoph. (2022). Aggregation bias and its drivers in large scale flood loss estimation: A Massachusetts case study. J. Flood Risk Manag. 15(4)\n\n\n\n\n\n\n\nCastigliego, Joshua R, Pollack, Adam, Cleveland, Cutler J, Walsh, Michael J. (2021). Evaluating emissions reductions from zero waste strategies under dynamic conditions: A case study from Boston. Waste Manag. 126 170-179"
+  },
+  {
+    "objectID": "publications/index.html#papers-in-review-or-in-press",
+    "href": "publications/index.html#papers-in-review-or-in-press",
+    "title": "Publications",
+    "section": "Papers In Review or In Press",
+    "text": "Papers In Review or In Press\n\n\nPollack, Adam B, Benedict, James B, Deb, Mithun, Doss-Gollin, James, et al.. (2025). Unrefined national building inventories can mislead risk assessments and decisions.\n\n\n\n\n\n\n\nHegde, Prabhat, Pollack, Adam, Vaze, Vikrant, Keller, Klaus. (2025). Timing managed retreat for robust coastal adaptation strategies. Social Science Research Network\n\n\n\n\n\n\n\nPollack, Adam, Wing, Ian Sue, Pinter, Nicholas, Nolte, Christoph. (2022). New Empirical Models for Flood Loss Prediction and Implications for the Coterminous United States."
+  },
+  {
+    "objectID": "publications/index.html#reports",
+    "href": "publications/index.html#reports",
+    "title": "Publications",
+    "section": "Reports",
+    "text": "Reports\n\n\nCastigliego, J R, Walsh, M J, Pollack, A, Cleveland, C J. (2019). Carbon free Boston: waste technical report.\n\n\n\n\n\n\n\nWalsh, Michael J, Kinney, Patrick L, […], Pollack, Adam, et al.. (2019). Carbon Free Boston: Technical Summary.\n\n\n\n\n\n\n\nWalsh, Michael J, Fox-Penner, Peter, Zheng, Kevin, Pollack, Adam, et al.. (2019). Carbon Free Boston: Energy Technical Report.\n\n\n\n\n\n\n\nHatchadorian, R, Best, R, […], Pollack, A, et al.. (2019). Carbon Free Boston: Buildings Technical Report."
+  }
+]
