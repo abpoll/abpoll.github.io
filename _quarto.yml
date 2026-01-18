@@ -1,0 +1,67 @@
+project:
+  type: website
+
+pagetitle: "{{< meta title >}} | Adam Pollack"
+author-meta: "Adam Pollack"
+
+website:
+  title: "Adam Pollack"
+  site-url: "https://abpoll.github.io"
+  repo-url: "https://github.com/abpoll/abpoll.github.io/tree/quarto"
+
+  navbar:
+    pinned: true
+
+    left:
+      - text: About
+        href: index.qmd
+      - text: Now
+        href: now/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: Teaching
+        href: teaching/index.qmd
+      - text: CV
+        href: cv/index.qmd
+
+    right:
+      - text: '{{< fa solid envelope size=1.1em title="E-mail" >}}'
+        href: 'mailto:adam-pollack@uiowa.edu'
+      - text: '{{< fa solid graduation-cap size=1.1em title="Google Scholar" >}}'
+        href: 'https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao'
+      - text: '{{< fa brands researchgate size=1.1em title="ResearchGate" >}}'
+        href: 'https://www.researchgate.net/profile/Adam-Pollack-4'
+      - text: '{{< fa brands github size=1.1em title="GitHub" >}}'
+        href: 'https://github.com/abpoll'
+        rel: 'me'
+      - text: '{{< fa solid cloud size=1.1em title="Bluesky" >}}'
+        href: 'https://bsky.app/profile/crispapoll.bsky.social'
+        rel: 'me'
+      - text: '{{< fa brands linkedin size=1.1em title="LinkedIn" >}}'
+        href: 'https://www.linkedin.com/in/adam-pollack-447775a8/'
+        rel: 'me'
+
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Adam Pollack</span>
+      <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    right: |
+      <span class="faux-block">Made with [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source on GitHub]({{< var github-url >}})</span>
+
+format:
+  html:
+    theme: [flatly, styles/custom.scss]
+    toc: false
+    code-link: true
+    anchor-sections: true
+    fig-cap-location: margin
+    reference-location: margin
+    footnotes-hover: true
+    smooth-scroll: true
+
+freeze: auto
+
+
