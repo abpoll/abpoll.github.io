@@ -7,14 +7,11 @@ execute:
   message: false
 ---
 
-
 ```{python}
 #| output: asis
 from pathlib import Path
 import html
 import re
-from collections import defaultdict
-
 import bibtexparser
 
 BIB_PATH = Path("../bibliography/my-papers.bib")
@@ -23,7 +20,9 @@ BIB_PATH = Path("../bibliography/my-papers.bib")
 def clean_braces(s: str) -> str:
     if s is None:
         return ""
-    return re.sub(r"[{}]", "", str(s)).strip()
+    s = re.sub(r"[{}]", "", str(s))
+    s = re.sub(r"\s+", " ", s)  # collapse line breaks / extra spaces
+    return s.strip()
 
 def norm_bool_str(x) -> bool:
     if x is None:
@@ -31,15 +30,13 @@ def norm_bool_str(x) -> bool:
     return str(x).strip().strip("{}").strip().lower() in ("true", "yes", "1", "y")
 
 def get_year(e) -> int:
-    # BibTeX style
     y = e.get("year")
     if y:
         try:
             return int(str(y)[:4])
         except:
             pass
-    # BibLaTeX style
-    d = e.get("date")  # e.g. 2026-01-20
+    d = e.get("date")  # biblatex style: YYYY-MM-DD
     if d:
         m = re.match(r"(\d{4})", str(d).strip())
         if m:
@@ -108,18 +105,96 @@ def preprint_badge(preprint_url):
         "Preprint",
     )
 
+# ---------- author logic (NEW) ----------
+def split_authors(author_field: str):
+    # BibTeX authors are separated by " and "
+    if not author_field:
+        return []
+    author_field = clean_braces(author_field)
+    parts = [a.strip() for a in author_field.split(" and ") if a.strip()]
+    return parts
+
+def is_me(author: str) -> bool:
+    a = author.lower().replace(".", "").strip()
+    # covers: "Pollack, Adam", "Pollack, Adam B", "Pollack, A", "Adam Pollack"
+    if "pollack" not in a:
+        return False
+    if "adam" in a:
+        return True
+    # e.g., "Pollack, A"
+    if re.search(r"\bpollack,\s*a\b", a) is not None:
+        return True
+    return False
+
+def format_authors(author_field: str, max_names: int = 4) -> str:
+    """
+    Display up to max_names authors without reordering.
+    Always bold 'me' if present.
+
+    If there are > max_names authors:
+      - if 'me' is in the first max_names: show first max_names (+ et al.)
+      - else: show first (max_names - 2), then […], then me, then et al.
+
+    This preserves true author order and avoids moving 'me' earlier.
+    """
+    authors = split_authors(author_field)
+    if not authors:
+        return ""
+
+    # Find position of me
+    me_idx = None
+    for i, a in enumerate(authors):
+        if is_me(a):
+            me_idx = i
+            break
+
+    n = len(authors)
+    truncated = n > max_names
+
+    def fmt_name(a: str) -> str:
+        if is_me(a):
+            return f"<strong>{html.escape(a)}</strong>"
+        return html.escape(a)
+
+    # If not truncated, just list all (with me bolded)
+    if not truncated:
+        return ", ".join(fmt_name(a) for a in authors)
+
+    # Truncated case
+    # If me is among the first max_names (or not present at all), show first max_names
+    if me_idx is None or me_idx < max_names:
+        shown = [fmt_name(a) for a in authors[:max_names]]
+        shown.append("et al.")
+        return ", ".join(shown)
+
+    # Me is NOT in the first max_names authors:
+    # show first (max_names - 2), then […], then me, then et al.
+    # e.g. max_names=4 => first 2, […], me, et al.
+    head_count = max(1, max_names - 2)
+    head = [fmt_name(a) for a in authors[:head_count]]
+    me = fmt_name(authors[me_idx])
+
+    shown = head + ["<span class='pub-ellipsis'>[…]</span>", me, "et al."]
+    return ", ".join(shown)
+
+def alpha_note(e) -> str:
+    if norm_bool_str(e.get("alpha")):
+        return "<div class='pub-alpha'>(non-lead authors listed alphabetically)</div>"
+    return ""
+
+# ---------- reference rendering ----------
 def format_reference(e) -> str:
-    authors = clean_braces(e.get("author", "")).replace("\n", " ").strip()
+    authors_html = format_authors(e.get("author", ""), max_names=4)
     year = get_year(e)
     title = clean_braces(e.get("title", ""))
     venue = clean_braces(e.get("journal") or e.get("journaltitle") or e.get("booktitle") or "")
     vol = clean_braces(e.get("volume", ""))
     num = clean_braces(e.get("number", ""))
     pages = clean_braces(e.get("pages", ""))
-    pieces = []
 
-    if authors:
-        pieces.append(f"{html.escape(authors)}.")
+    pieces = []
+    if authors_html:
+        pieces.append(f"{authors_html}.")
     if year:
         pieces.append(f"({year}).")
     if title:
@@ -134,75 +209,11 @@ def format_reference(e) -> str:
     if pages:
         pieces.append(f"<span class='pub-pages'>{html.escape(pages)}</span>")
 
-    # Join with spaces, then add a DOI/url line if present
     ref = " ".join([p for p in pieces if p])
+    ref += alpha_note(e)
     return ref
 
-def split_authors(author_field: str):
-    # BibTeX authors are separated by " and "
-    if not author_field:
-        return []
-    parts = [a.strip() for a in author_field.replace("\n", " ").split(" and ") if a.strip()]
-    return parts
-
-def is_me(author: str) -> bool:
-    # Robust match for your name in common BibTeX forms
-    a = author.lower().replace(".", "").strip()
-    # handles "Pollack, Adam", "Pollack, Adam B", "Pollack, A", "Adam Pollack"
-    return ("pollack" in a) and (("adam" in a) or re.search(r"\bpollack,\s*a\b", a) is not None)
-
-def bold_me(author: str) -> str:
-    return f"<strong>{html.escape(author)}</strong>"
-
-def format_authors(author_field: str, max_names: int = 4) -> str:
-    authors = split_authors(clean_braces(author_field))
-    if not authors:
-        return ""
-
-    # Find "me" if present
-    me_idx = None
-    for i, a in enumerate(authors):
-        if is_me(a):
-            me_idx = i
-            break
-
-    # Build a displayed list of up to max_names, but always include me if found
-    displayed = authors[:max_names]
-    truncated = len(authors) > max_names
-
-    if me_idx is not None:
-        me_author = authors[me_idx]
-        # ensure me is in displayed
-        if me_author not in displayed:
-            # make room: drop last displayed author and insert me at position 1
-            if displayed:
-                displayed = displayed[:-1]
-            insert_pos = 1 if len(displayed) >= 1 else 0
-            displayed.insert(insert_pos, me_author)
-
-    # Bold me in displayed list
-    disp_html = []
-    for a in displayed:
-        if is_me(a):
-            disp_html.append(bold_me(a))
-        else:
-            disp_html.append(html.escape(a))
-
-    # Add et al. if truncated
-    if truncated:
-        disp_html.append("et al.")
-
-    return ", ".join(disp_html)
-
-def alpha_note(e) -> str:
-    # supports alpha={true} or author_order={alphabetical}
-    if norm_bool_str(e.get("alpha")):
-        return " <span class='pub-alpha'>(authors listed alphabetically)</span>"
-    ao = (e.get("author_order") or "").strip().lower()
-    if ao in ("alphabetical", "alpha", "alphabetic"):
-        return " <span class='pub-alpha'>(authors listed alphabetically)</span>"
-    return ""
-
+# ---------- card rendering ----------
 def render_entry(e):
     link = get_primary_link(e)
     open_access = norm_bool_str(e.get("open"))
@@ -227,10 +238,8 @@ def render_entry(e):
                     "Published",
                 )
             )
-
     if repo:
         badges.append(repo_badge(repo))
-
     if preprint:
         badges.append(preprint_badge(preprint))
 
@@ -239,7 +248,7 @@ def render_entry(e):
 
     notes_html = ""
     if badges:
-        notes_html = f"<div class='bibcard-notes'>{''.join(badges)}</div>"
+        notes_html = "<div class='bibcard-notes'>" + "".join(badges) + "</div>"
 
     card_html = (
         "<div class='pub-card'>"
@@ -247,10 +256,9 @@ def render_entry(e):
         f"{notes_html}"
         "</div>"
     )
-
     print(card_html)
 
-# Load data and print by group
+# ---------- load + partition ----------
 if not BIB_PATH.exists():
     print(f"**Error:** Could not find `{BIB_PATH}`. Make sure the bibliography submodule is initialized.")
 else:
@@ -265,14 +273,15 @@ else:
         ("Reports", {"techreport"}),
     ]
 
-    # Print sections
     used_ids = set()
-    for title, types in sections:
-        print(f"\n\n## {title}\n")
+    for section_title, types in sections:
+        print(f"\n\n## {section_title}\n")
 
         section_entries = [e for e in entries if entrytype(e) in types]
-        # sort by year desc, then title
-        section_entries.sort(key=lambda e: (get_year(e), clean_braces(e.get("title","")).lower()), reverse=True)
+        section_entries.sort(
+            key=lambda e: (get_year(e), clean_braces(e.get("title", "")).lower()),
+            reverse=True,
+        )
 
         if not section_entries:
             print("<p class='text-muted'>No entries found in this section.</p>")
