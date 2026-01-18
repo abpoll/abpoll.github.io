@@ -1,7 +1,15 @@
 ---
-title: "abpoll.github.io"
+title: "About Me"
+email: "adam-pollack@uiowa.edu"
+image: profile.png
+about: 
+  template: broadside
+  image: assets/img/profile.png
+  image-alt: "Profile Picture"
 ---
 
-This is a Quarto website.
+I am an Assistant Professor in the [School of Earth, Environment and Sustainability at the University of Iowa](https://sees.uiowa.edu/). My research on flood risk management aims to produce actionable insights for infrastructure design and public policy.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I previously worked as a postdoc and research scientist in the [Keller Lab Group](https://keller-lab.github.io/) in the Thayer School of Engineering at Dartmouth College. I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of [Christoph Nolte](https://placeslab.org/) and [Ian Sue Wing](https://people.bu.edu/isw/). I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.
+
+I have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, I once operated [Long Island Kettle Corn](https://patch.com/new-york/portwashington/three-minutes-across-counter-long-island-kettle-corn) at farmers markets and festivals throughout Long Island, New York. 

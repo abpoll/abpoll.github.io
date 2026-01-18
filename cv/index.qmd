@@ -1,0 +1,22 @@
+---
+title: Curriculum Vitae
+freeze: false
+date-format: long
+date: 01/17/2026
+published-title: CV last updated
+---
+
+
+```{=html}
+<p class="text-center">
+  <a class="btn btn-primary btn-lg cv-download" href="/assets/pdf/Pollack-CV.pdf" target="_blank" rel="noopener">
+    {{< fa solid file-arrow-down >}}Download current CV
+  </a>
+</p>
+
+<div class="embed-container" role="region" aria-label="Curriculum Vitae">
+  <iframe src="/assets/pdf/Pollack-CV.pdf#toolbar=0" width="100%" height="900" style="border: 0.5px solid #ddd;" title="Pollack Current CV (PDF)">
+    <p>Your browser does not support embedded PDFs. You can download the CV <a href="/assets/pdf/Pollack-CV.pdf">here</a>.</p>
+  </iframe>
+</div>
+```

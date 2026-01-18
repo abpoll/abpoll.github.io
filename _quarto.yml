@@ -16,29 +16,44 @@ website:
       - text: About
         href: index.qmd
       - text: Now
-        href: now.qmd
+        href: now/index.qmd
       - text: Publications
-        href: publications.qmd
+        href: publications/index.qmd
       - text: Teaching
-        href: teaching.qmd
+        href: teaching/index.qmd
       - text: CV
-        href: cv.qmd
+        href: cv/index.qmd
 
     right:
-      - text: '<a class="icon-link" href="mailto:adam-pollack@uiowa.edu" title="E-mail" aria-label="E-mail"><i class="fa fa-envelope" aria-hidden="true"></i></a>'
+      - text: '{{< fa solid envelope size=1.1em title="E-mail" >}}'
         href: 'mailto:adam-pollack@uiowa.edu'
-      - text: '<a class="icon-link" href="https://github.com/abpoll" title="GitHub" aria-label="GitHub" rel="me"><i class="fa fa-github" aria-hidden="true"></i></a>'
-        href: 'https://github.com/abpoll'
-      - text: '<a class="icon-link" href="https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao" title="Google Scholar" aria-label="Google Scholar"><i class="fa fa-graduation-cap" aria-hidden="true"></i></a>'
+      - text: '{{< fa solid graduation-cap size=1.1em title="Google Scholar" >}}'
         href: 'https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao'
-      - text: '<a class="icon-link" href="https://www.researchgate.net/profile/Adam-Pollack-4" title="ResearchGate" aria-label="ResearchGate"><i class="fa fa-network-wired" aria-hidden="true"></i></a>'
+      - text: '{{< fa brands researchgate size=1.1em title="ResearchGate" >}}'
         href: 'https://www.researchgate.net/profile/Adam-Pollack-4'
-      - text: '<a class="icon-link" href="https://orcid.org/0000-0001-6642-0591" title="ORCID" aria-label="ORCID"><i class="fa fa-id-badge" aria-hidden="true"></i></a>'
-        href: 'https://orcid.org/0000-0001-6642-0591'
+      - text: '{{< fa brands github size=1.1em title="GitHub" >}}'
+        href: 'https://github.com/abpoll'
+        rel: 'me'
+      - text: '{{< fa solid cloud size=1.1em title="Bluesky" >}}'
+        href: 'https://bsky.app/profile/crispapoll.bsky.social'
+        rel: 'me'
+      - text: '{{< fa brands linkedin size=1.1em title="LinkedIn" >}}'
+        href: 'https://www.linkedin.com/in/adam-pollack-447775a8/'
+        rel: 'me'
+
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} {{< var years >}} Adam Pollack</span>
+      <span class="faux-block">All content licensed under<br>[{{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} Creative Commons CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)</span>
+    center: |
+      <span class="faux-block">{{< fa brands orcid >}} <strong>ORCID</strong> [{{< var orcid >}}](https://orcid.org/{{< var orcid >}})</span>
+    right: |
+      <span class="faux-block">Made with [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">[View the source on GitHub]({{< var github-url >}})</span>
 
 format:
   html:
-    theme: [flatly, styles/custom.scc]
+    theme: [flatly, styles/custom.scss]
     toc: false
     code-link: true
     anchor-sections: true
@@ -47,9 +62,6 @@ format:
     footnotes-hover: true
     smooth-scroll: true
 
-
-bibliography: bibliography/my-papers.bib
-
-freeze: true
+freeze: auto
 
 

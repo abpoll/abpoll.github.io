@@ -1,0 +1,81 @@
+/*-- scss:defaults --*/
+
+
+/*  Webpage footer formatting  */
+.faux-block {
+    display: block;
+    padding-bottom: 0.4em;
+}
+
+
+/*  Embedded PDF (CV)  */
+
+.embed-container {
+    position: relative;
+    padding-bottom: 129%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Publications page styling */
+
+.pub-card {
+  padding: 1rem 1.1rem;
+  margin: 0 0 1rem 0;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: .75rem;
+  background: rgba(0,0,0,0.015);
+}
+
+.bibcard-notes {
+  margin-top: .4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  align-items: center;
+}
+
+.bibcard-ref {
+  line-height: 1.35;
+  margin-bottom: .5rem;
+}
+
+.pub-title {
+  font-weight: 600;
+}
+
+.pub-venue {
+  font-style: italic;
+}
+
+.pub-vol {
+  font-weight: 600;
+}
+
+.pub-alpha {
+  font-size: 0.95em;
+  opacity: 0.8;
+  margin-left: .25rem;
+}
+
+.pub-badge-link img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: .35rem;
+  margin-bottom: .25rem;
+}
+
+.pub-footer-note {
+  margin-top: 1.5rem;
+}
