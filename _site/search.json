@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "About Me",
-    "section": "",
-    "text": "I am an Assistant Professor in the School of Earth, Environment and Sustainability at the University of Iowa. My research on flood risk management aims to produce actionable insights for infrastructure design and public policy.\nI previously worked as a postdoc and research scientist in the Keller Lab Group in the Thayer School of Engineering at Dartmouth College. I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of Christoph Nolte and Ian Sue Wing. I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.\nI have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, I once operated Long Island Kettle Corn at farmers markets and festivals throughout Long Island, New York."
-  },
-  {
-    "objectID": "now.html",
-    "href": "now.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum Vitae",
@@ -40,34 +26,6 @@
     "title": "What I’m Doing Now",
     "section": "Research Logistics",
     "text": "Research Logistics\n\nI’m preparing a job posting for a postdoctoral research associate. If you are interested in joining me at the Schol of Earth, Environment, and Sustainability at the University of Iowa, please check back here in February to see see the application workflow.\nI will eventually find the time to move this website over to Quarto and separately set up a lab group webpage and manual!"
-  },
-  {
-    "objectID": "teaching/index.html",
-    "href": "teaching/index.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
-  },
-  {
-    "objectID": "teaching/index.html#courses",
-    "href": "teaching/index.html#courses",
-    "title": "Teaching",
-    "section": "",
-    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
-  },
-  {
-    "objectID": "teaching/index.html#designed-and-instructed-modules",
-    "href": "teaching/index.html#designed-and-instructed-modules",
-    "title": "Teaching",
-    "section": "Designed and Instructed Modules",
-    "text": "Designed and Instructed Modules\n\nDartmouth College\n\nI developed a teaching module on how to produce Findable, Accessible, Interoperable, and Reusable analyses, which I presented in the course Bayesian Statistical Modeling and Computation in the winters of 2024 and 2025."
-  },
-  {
-    "objectID": "teaching/index.html#teaching-assistant",
-    "href": "teaching/index.html#teaching-assistant",
-    "title": "Teaching",
-    "section": "Teaching Assistant",
-    "text": "Teaching Assistant\n\nBoston University\n\nI was the lab instructor for EE 270, “Data, Models, and Analysis in Earth & Environment”, an introductory probability and statistics course for natural and social science applications in environmental sciences, in Spring 2020 and 2021. In 2021, I led the redesign of all computational labs in the course.\n\n\n\nStony Brook University\n\nI was a teaching assistant for CSE 316, “Software Development Fundamentals.” In this role, I held 4 open office hours per week where I assisted students on course projects through concept review, implementation advice, and debugging help."
   },
   {
     "objectID": "publications/index.html",
@@ -98,10 +56,38 @@
     "text": "Reports\n\n\nCastigliego, J R, Walsh, M J, Pollack, A, Cleveland, C J. (2019). Carbon free Boston: waste technical report.\n\n\n\n\n\n\n\nWalsh, Michael J, Kinney, Patrick L, […], Pollack, Adam, et al.. (2019). Carbon Free Boston: Technical Summary.\n\n\n\n\n\n\n\nWalsh, Michael J, Fox-Penner, Peter, Zheng, Kevin, Pollack, Adam, et al.. (2019). Carbon Free Boston: Energy Technical Report.\n\n\n\n\n\n\n\nHatchadorian, R, Best, R, […], Pollack, A, et al.. (2019). Carbon Free Boston: Buildings Technical Report."
   },
   {
-    "objectID": "publications/index.html#other-writing",
-    "href": "publications/index.html#other-writing",
-    "title": "Publications",
-    "section": "Other writing",
-    "text": "Other writing\n\n\nKopp, Robert, Auermuller, Lisa, […], Pollack, Adam, et al.. (2023). Comment on Army Corps of Engineers New York and New Jersey Harbor &amp; Tributaries Focus Area Feasibility Study (HATS)."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am an Assistant Professor in the School of Earth, Environment and Sustainability at the University of Iowa. My research on flood risk management aims to produce actionable insights for infrastructure design and public policy.\nI previously worked as a postdoc and research scientist in the Keller Lab Group in the Thayer School of Engineering at Dartmouth College. I completed my Ph.D. in the Earth and Environment Department at Boston University under the supervision of Christoph Nolte and Ian Sue Wing. I earned my B.S. and M.S. in Applied Mathematics and Statistics from Stony Brook University.\nI have interests outside of academia, mostly involved with being outside or cooking, eating, and sharing food. Along the theme of risk, some of my favorite hobbies include skiing (downhill and xc), hiking, cycling, and backpacking. Food-wise, I once operated Long Island Kettle Corn at farmers markets and festivals throughout Long Island, New York."
+  },
+  {
+    "objectID": "teaching/index.html",
+    "href": "teaching/index.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
+  },
+  {
+    "objectID": "teaching/index.html#courses",
+    "href": "teaching/index.html#courses",
+    "title": "Teaching",
+    "section": "",
+    "text": "I will teach a course on Environmental Justice in Spring 2026.\nI will co-teach a course on research foundations in Earth, Environment, and Sustainability in Spring 2026\n\n\n\n\n\nI developed and taught a graduate-level course on decision analysis for wicked climate problems in “pilot” mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn’t, and how I’d adapt this course for future versions, different audiences, and semester-based systems."
+  },
+  {
+    "objectID": "teaching/index.html#designed-and-instructed-modules",
+    "href": "teaching/index.html#designed-and-instructed-modules",
+    "title": "Teaching",
+    "section": "Designed and Instructed Modules",
+    "text": "Designed and Instructed Modules\n\nDartmouth College\n\nI developed a teaching module on how to produce Findable, Accessible, Interoperable, and Reusable analyses, which I presented in the course Bayesian Statistical Modeling and Computation in the winters of 2024 and 2025."
+  },
+  {
+    "objectID": "teaching/index.html#teaching-assistant",
+    "href": "teaching/index.html#teaching-assistant",
+    "title": "Teaching",
+    "section": "Teaching Assistant",
+    "text": "Teaching Assistant\n\nBoston University\n\nI was the lab instructor for EE 270, “Data, Models, and Analysis in Earth & Environment”, an introductory probability and statistics course for natural and social science applications in environmental sciences, in Spring 2020 and 2021. In 2021, I led the redesign of all computational labs in the course.\n\n\n\nStony Brook University\n\nI was a teaching assistant for CSE 316, “Software Development Fundamentals.” In this role, I held 4 open office hours per week where I assisted students on course projects through concept review, implementation advice, and debugging help."
   }
 ]
