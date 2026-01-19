@@ -7,19 +7,19 @@ about:
   image: assets/img/profile.png
   image-alt: "Profile Picture"
   links:
-    - text: 'Email {{< fa solid envelope size=1.1em title="E-mail" >}}'
+    - text: '{{< fa solid envelope size=1.1em title="E-mail" >}} Email'
       href: 'mailto:adam-pollack@uiowa.edu'
-    - text: 'Google Scholar {{< fa solid graduation-cap size=1.1em title="Google Scholar" >}}'
+    - text: '{{< fa solid graduation-cap size=1.1em title="Google Scholar" >}} Google Scholar'
       href: 'https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao'
-    - text: 'ResearchGate {{< fa brands researchgate size=1.1em title="ResearchGate" >}}'
+    - text: '{{< fa brands researchgate size=1.1em title="ResearchGate" >}} ResearchGate'
       href: 'https://www.researchgate.net/profile/Adam-Pollack-4'
-    - text: 'GitHub {{< fa brands github size=1.1em title="GitHub" >}}'
+    - text: '{{< fa brands github size=1.1em title="GitHub" >}} GitHub'
       href: 'https://github.com/abpoll'
       rel: 'me'
-    - text: 'Bluesky {{< fa solid cloud size=1.1em title="Bluesky" >}}'
+    - text: '{{< fa solid cloud size=1.1em title="Bluesky" >}} Bluesky'
       href: 'https://bsky.app/profile/crispapoll.bsky.social'
       rel: 'me'
-    - text: 'LinkedIn {{< fa brands linkedin size=1.1em title="LinkedIn" >}}'
+    - text: '{{< fa brands linkedin size=1.1em title="LinkedIn" >}} LinkedIn'
       href: 'https://www.linkedin.com/in/adam-pollack-447775a8/'
       rel: 'me'
 
