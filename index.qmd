@@ -1,11 +1,28 @@
 ---
-title: "About Me"
+title: "Adam Pollack"
 email: "adam-pollack@uiowa.edu"
 image: profile.png
 about: 
-  template: broadside
+  template: trestles
   image: assets/img/profile.png
   image-alt: "Profile Picture"
+  links:
+    - text: 'Email {{< fa solid envelope size=1.1em title="E-mail" >}}'
+      href: 'mailto:adam-pollack@uiowa.edu'
+    - text: 'Google Scholar {{< fa solid graduation-cap size=1.1em title="Google Scholar" >}}'
+      href: 'https://scholar.google.com/citations?user=mnigw6AAAAAJ&hl=en&oi=ao'
+    - text: 'ResearchGate {{< fa brands researchgate size=1.1em title="ResearchGate" >}}'
+      href: 'https://www.researchgate.net/profile/Adam-Pollack-4'
+    - text: 'GitHub {{< fa brands github size=1.1em title="GitHub" >}}'
+      href: 'https://github.com/abpoll'
+      rel: 'me'
+    - text: 'Bluesky {{< fa solid cloud size=1.1em title="Bluesky" >}}'
+      href: 'https://bsky.app/profile/crispapoll.bsky.social'
+      rel: 'me'
+    - text: 'LinkedIn {{< fa brands linkedin size=1.1em title="LinkedIn" >}}'
+      href: 'https://www.linkedin.com/in/adam-pollack-447775a8/'
+      rel: 'me'
+
 ---
 
 I am an Assistant Professor in the [School of Earth, Environment and Sustainability at the University of Iowa](https://sees.uiowa.edu/). My research on flood risk management aims to produce actionable insights for infrastructure design and public policy.
