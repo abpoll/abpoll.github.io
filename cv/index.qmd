@@ -2,7 +2,7 @@
 title: Curriculum Vitae
 freeze: false
 date-format: long
-date: 01/17/2026
+date: 03/15/2026
 published-title: CV last updated
 ---
 

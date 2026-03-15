@@ -4,8 +4,8 @@ title: "Teaching"
 
 ## Courses
 ### University of Iowa 
-  * I will teach a course on [Environmental Justice](https://myui.uiowa.edu/my-ui/courses/details.page?ci=174514&id=1060439) in Spring 2026. 
-  * I will co-teach a course on [research foundations in Earth, Environment, and Sustainability](https://myui.uiowa.edu/my-ui/courses/details.page?ci=174593&id=1060442) in Spring 2026
+  * I am teaching a course on [Environmental Justice](https://myui.uiowa.edu/my-ui/courses/details.page?ci=174514&id=1060439) this semester, Spring 2026. 
+  * I am co-teaching a course on [research foundations in Earth, Environment, and Sustainability](https://myui.uiowa.edu/my-ui/courses/details.page?ci=174593&id=1060442) this semester, Spring 2026.
 
 ### Dartmouth College
 * I developed and taught a graduate-level course on [decision analysis for wicked climate problems](https://abpoll.github.io/engs199.20/) in "pilot" mode to four PhD students from different institutions. All materials are open source. Please feel free to adapt this for your teaching needs and reach out with any questions. I plan to add content to this repository with notes on what worked well, what didn't, and how I'd adapt this course for future versions, different audiences, and semester-based systems.  
