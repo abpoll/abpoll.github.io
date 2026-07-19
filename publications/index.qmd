@@ -87,8 +87,8 @@ def repo_badge(repo_url):
         )
     return badge_link(
         repo_url,
-        "https://img.shields.io/badge/Repository-gray?style=flat",
-        "Repository",
+        "https://img.shields.io/static/v1?style=flat&label=&message=Open%20Source",
+        "Open Source",
     )
 
 def preprint_badge(preprint_url):
